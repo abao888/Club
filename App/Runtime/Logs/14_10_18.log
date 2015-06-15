@@ -1,0 +1,49 @@
+[ 2014-10-18T19:40:32+08:00 ] 127.0.0.1 /shequ/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.061003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.073004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\shequ\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 33 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\shequ\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.585034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.585034s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.018001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.049003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.125007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.079004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.272015s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.032002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.033002s ]
+
+[ 2014-10-18T19:40:46+08:00 ] 127.0.0.1 /shequ/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.027002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.027002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.052003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\shequ\App\Runtime\Cache\f0b6776c2e2528b7b581d55514547e92.php 第 33 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\shequ\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+

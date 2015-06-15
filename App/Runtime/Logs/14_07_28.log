@@ -1,0 +1,984 @@
+[ 2014-07-28T12:33:51+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/User/setavatar
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.059003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.115006s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.040002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.121007s ]
+NOTIC: [8] Undefined index: mid C:\wamp\www\thinkphpbbs\App\Lib\Action\UserAction.class.php 第 85 行.
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.105006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\thinkphpbbs\App\Runtime\Cache\13051647cf9e3dd3be3295b069058901.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.349020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350020s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.042003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.026001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.024002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.033001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.127008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.023001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2014-07-28T12:33:51+08:00 ] ERR: (ThinkException) 非法操作:$
+[ 2014-07-28T12:33:58+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.021001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f0b6776c2e2528b7b581d55514547e92.php 第 41 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-07-28T12:34:06+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/User/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '928171466@qq.com' ) AND ( `password` = '4c47957804440bc6d66c6534568df676' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-07-28T12:34:07+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.070004s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.052003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.178010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-07-28T12:35:21+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.028001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.030001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.109006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: typelist C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.353020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353020s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.038002s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.249015s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.035002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.212012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.535031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.099006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.101006s ]
+
+[ 2014-07-28T12:43:31+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.090005s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.002001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T12:47:59+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.028002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.024002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024002s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.035002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.019001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.015001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.014001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.022001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.022001s ]
+
+[ 2014-07-28T12:49:01+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2014-07-28T12:50:15+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523015,0) [ RunTime:0.001001s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523015,0)
+
+[ 2014-07-28T12:50:28+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523027,0) [ RunTime:0.000000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523027,0)
+
+[ 2014-07-28T12:50:47+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005001s ]
+
+[ 2014-07-28T12:50:56+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+
+[ 2014-07-28T12:51:11+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006000s ]
+
+[ 2014-07-28T12:57:34+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.018001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006001s ]
+
+[ 2014-07-28T13:02:55+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523775,0) [ RunTime:0.000000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406523775,0)
+
+[ 2014-07-28T13:11:39+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.040002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.041002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.009000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524299,0) [ RunTime:0.001000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524299,0)
+
+[ 2014-07-28T13:11:50+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524310,0) [ RunTime:0.001000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524310,0)
+
+[ 2014-07-28T13:16:23+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.029001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.008000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524583,0) [ RunTime:0.001000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524583,0)
+
+[ 2014-07-28T13:18:06+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',0,1406524686,0) [ RunTime:0.081004s ]
+
+[ 2014-07-28T13:20:00+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',0,1406524800,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:20:08+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524808,0) [ RunTime:0.001000s ]
+ERR: Column 'type_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524808,0)
+
+[ 2014-07-28T13:22:33+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.029002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.030002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524953,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:22:52+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.007001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524972,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:23:13+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.007000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科\r\n</p>',null,0,1406524993,0) [ RunTime:0.001001s ]
+
+[ 2014-07-28T13:23:46+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: type_id C:\wamp\www\thinkphpbbs\App\Lib\Action\IndexAction.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科2','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>',null,0,1406525025,0) [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.049002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.258014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.259014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.051003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.048003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.012001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.023001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.137008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.033002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.034002s ]
+
+[ 2014-07-28T13:23:47+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.021001s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.254014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.255014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-07-28T13:26:41+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.063003s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.154008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:27:03+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.028001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科2','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>',0,0,1406525223,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:27:16+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科2','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>',0,0,1406525236,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:28:03+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科22','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>',0,0,1406525283,0) [ RunTime:0.000000s ]
+
+[ 2014-07-28T13:28:56+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科22','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>','',0,1406525336,0) [ RunTime:0.001001s ]
+
+[ 2014-07-28T13:29:01+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科22','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>','',0,1406525341,0) [ RunTime:0.001000s ]
+
+[ 2014-07-28T13:29:17+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006001s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科22','<h1>\r\n	HTML\r\n</h1>\r\n<p>\r\n	个人百科222222222222222\r\n</p>','',0,1406525357,0) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:29:18+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002001s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-07-28T13:30:40+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:30:42+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.082005s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.101006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-07-28T13:30:56+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科111','11111111111111111111111111111','',0,1406525455,0) [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:43:54+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.006000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科111','11111111111111111111111111111','',0,1406526234,0) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:43:55+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:47:30+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-07-28T13:48:09+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('刘一帝','广西大学计算机与电子信息学院电子商务111班刘一帝','',0,1406526489,0) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:48:10+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:49:20+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-07-28T13:49:47+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.005000s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('广西大学','广西大学','',0,1406526587,0) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T13:49:49+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-07-28T14:09:55+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/topic_detail
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.037002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\wamp\www\thinkphpbbs\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 77 行.
+NOTIC: [8] Undefined variable: tag_str C:\wamp\www\thinkphpbbs\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 79 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.181011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182011s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.027001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.048003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.080005s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.056003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.212012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.045003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.045003s ]
+
+[ 2014-07-28T23:07:44+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.150008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.284016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.041002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.098006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.117007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.590034s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\thinkphpbbs\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 5 行.
+NOTIC: [8] Undefined variable: description C:\wamp\www\thinkphpbbs\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 6 行.
+INFO: Run ParseTemplate Behavior [ RunTime:4.371250s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.371250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.021001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.057003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.026002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.044002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.150008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.023002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.024002s ]
+
+[ 2014-07-28T23:07:57+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.128008s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.024001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.021001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\thinkphpbbs\App\Runtime\Cache\4b64ec1134a5b4e7a9275205943f3f48.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.143008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-07-28T23:08:10+08:00 ] 127.0.0.1 /thinkphpbbs/index.php/Index/doAddNewTopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.078004s ]
+SQL: INSERT INTO `think_post` (`title`,`content`,`type_id`,`comment_count`,`create_date`,`hits`) VALUES ('个人百科','么么么么么么么么么么么么么么么么么么么么','',0,1406560089,0) [ RunTime:0.076005s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.016001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+

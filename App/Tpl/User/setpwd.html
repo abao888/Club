@@ -1,0 +1,52 @@
+<include file="Public:public_header" />
+<div id="wrap">
+  <div class="container main">
+    <div class="row">
+      <div class="col-md-8">
+         <div class="panel panel-default index-topic-list">
+            <div class="panel-heading">
+               <ul class="breadcrumb" >
+                  <li><a href="{:U('Index/index')}">首页</a><span class="divider">&nbsp;&nbsp;</span></li>
+                  <li><a href="#">&nbsp;&nbsp;设置</a></li>
+               </ul>
+            </div>
+            <div class="panel-body">
+               <ul class="nav nav-tabs">
+                  <li><a href='{:U("User/setinfo")}'>个人资料</a></li>
+                  <li><a href="{:U('User/setavatar')}">设置头像</a></li>
+                  <li class="active"><a href="{:U('User/setpwd')}">修改密码</a></li>
+                  <li><a href="{:U('User/setbind')}">绑定账号</a></li>
+               </ul>
+      <div class="inner">
+        <form class="form-horizontal" id="setpwd_form" method="post" action="{:U('User/doSetpwd')}">
+	      <fieldset>
+	         <div class="control-group">
+	             <label class="control-label" for="input01">原密码</label>
+		         <div class="controls"><input type="password" name="oldpwd"  class="input-xlarge"/></div>          
+	         </div>
+             <div class="control-group">
+	             <label class="control-label" for="input01">新密码</label>
+		         <div class="controls"><input type="password" name="newpwd"  class="input-xlarge"/></div>          
+	         </div>
+             <div class="control-group">
+	             <label class="control-label" for="input01">重复密码</label>
+		         <div class="controls"><input type="password" name="newpwd2"  class="input-xlarge"/></div>          
+	         </div>
+	         <div class="control-group">
+		         <div class="controls"><input type="submit"  value="保存" class="btn btn-success"/></div>
+	         </div>
+	      </fieldset>	  
+		    </form>
+      </div><!--inner-->
+         </div>
+         </div>   
+      </div>
+      <!--col-md-8-->
+      <div class="col-md-4">
+            {:W('UserInfo')} {:W('Ad')}
+      </div>
+     </div><!--row-->
+  </div><!--container-->
+</div><!--wrap-->
+
+<include file="Public:public_footer"/>

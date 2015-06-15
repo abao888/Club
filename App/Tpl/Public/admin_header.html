@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>后台管理</title>
+    <link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/global.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="container">
+	<div class="nav navbar ">
+        <div class="navbar-inner">
+            <a class="brand " href="#">后台管理</a>
+            <ul class="nav navbar-nav">
+                <li {$index}}><a href="{:U('Admin/index')}">首页</a></li>
+                <li><a href="{:U('Admin/config')}">系统设置</a></li>
+                <li {$topiclist}><a href="{:U('Admin/topiclist')}">话题管理</a></li>
+                <li><a href="{:U('Admin/user')}">用户管理</a></li>
+                <li><a href="{:U('Admin/comment')}">评论管理</a></li>
+            </ul>
+            <p class="navbar-right">
+		          管理员:<b>{$_SESSION['userinfo']}</b>&nbsp;&nbsp;欢迎登录后台管理系统&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="__ROOT__" target="_black">网站前台</a>&nbsp;<a class="btn btn-primary" href="{:U('User/layout')}">退出</a>
+	          </p>
+        </div>
+    </div>
+    </div>  
+</div>

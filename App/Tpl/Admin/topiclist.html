@@ -1,0 +1,43 @@
+<include file="Public:admin_header"/>
+<div class="container">
+  <ul class="breadcrumb">
+    <li><a href="#">首页</a> <span class="divider">></span></li>
+    <li><a href="#">话题列表</a> <span class="divider">></span></li>
+    <li class="active">话题分类</li>
+  </ul>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="span-12">
+			<div class="content" style="height:500px; width:500px;">
+			   <h3>话题管理</h3>
+			   <table>
+                    <thead>
+                        <tr>
+                         <th>话题名称</th>
+                         <th>话题简介</th>
+                         <th>作者</th>
+                         <th>分类</th>
+                         <th>状态</th>
+                         <th>发布时间</th>
+                         <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <volist name="lists" id="vo">
+                       <tr>
+                       	 <td>{$vo.title}</td>
+                       	 <td>{$vo.content}</td>
+                       	 <td>{$vo.username.username}</td>
+                       	 <td>{$vo.typename</td>
+                       	 <td>{$vo.status}</td>
+                       	 <td>{$vo.create_date|date="Y-m-d H:i:s",###}</td>
+                       </tr>
+                       </volist>
+                    </tbody>
+               </table>
+		    </div>
+		</div>
+	</div>
+</div>
+<include file="Public:admin_footer"/>

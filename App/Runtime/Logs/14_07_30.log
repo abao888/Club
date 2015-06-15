@@ -1,0 +1,48 @@
+[ 2014-07-30T23:32:19+08:00 ] 127.0.0.1 /thinkphpbbs/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.261015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.439025s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.227013s ]
+INFO: [ view_template ] --END-- [ RunTime:0.227013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 41 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\thinkphpbbs\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+INFO: Run ParseTemplate Behavior [ RunTime:2.577148s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.577148s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.048003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.171009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.069004s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.091006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.381022s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.322018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.322018s ]
+
+[ 2014-07-30T23:32:20+08:00 ] 127.0.0.1 /thinkphpbbs/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 41 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 79 行.
+NOTIC: [8] Undefined variable: lists C:\wamp\www\thinkphpbbs\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 80 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\thinkphpbbs\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
+

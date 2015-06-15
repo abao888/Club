@@ -1,0 +1,53 @@
+<include file="Public:public_header" />
+
+<div id="wrap">
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-9">
+               <div class="panel panel-default index-topic-list">
+                  <div class="panel-heading">
+                     <h3>发起话题</h3>
+                  </div>
+                  <div class="panel-body">
+                        <form id="topic_form" name="addtopic" method="post" action="{:U('Topic/doAddNewTopic')}">
+              <h4>话题标题</h4>
+              <input type="text" name="title" id="title" value="" />
+              <h4>话题内容</h4>
+              <textarea id="editor_id" name="content" style="width:670px; min-height:300px;"></textarea>
+              <h4>帖子标签</h4>
+              <div style="position:relative; left:0px; top:0px;"><input type="text" name="tag" /></div>
+              <div id="show_tags" style="width:200px; height:auto; position:absolute;">       
+              </div>
+              <p>多个标签一起使用,要使用“,”分隔符,一次最多输入5个</p>
+              <div id="testshow"></div>
+              <h4>话题板块</h4>
+              <select name="type" id="topic_type">
+                 <option value="0">--请选择分类--</option>
+                 <foreach name="typelist" item="vo">
+                   <option value="{$vo.id}">{$vo.name}</option>
+                 </foreach>
+              </select>
+              <br/>
+              <p></p>
+              <input type="submit" class="btn btn-primary" id="submitinfo" value="发布新话题" />
+                        </form>
+                  </div>
+               </div>
+            </div>
+            <!--col-md-8-->
+            <div class="col-md-3">
+                {:W('UserInfo')} 
+                {:W('Ad')}
+            </div>
+        </div><!--row-->
+    </div><!--container-->
+</div><!--wrap-->
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh_CN.js"></script>
+<script>
+  KindEditor.ready(function(K){
+	 window.editor=K.create("#editor_id");
+  });
+</script>
+
+<include file="Public:public_footer" />

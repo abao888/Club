@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8" />
+      <link rel="shortcut icon" type="image/x-icon" href="__PUBLIC__/img/favicon.png">
+      <title>社区|shequ.com - 交流平台</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="keywords" content="shequ">
+      <meta name="description" content="社区网-一个新的社区交流平台">
+      <meta name="author" content="liuyidi.com">
+      <!--style-->
+      <link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet">
+      <link href="__PUBLIC__/css/global.css" rel="stylesheet">
+      <!--HTML5 IE6-8 -->
+      <!--[if lt IE 9]>
+         <script src="../assets/js/html5shiv.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+	      <a class="navbar-brand" href="" style="width:183px; height:50px; margin:0: display:block; float:left;">
+            <!--<img class="navbar-icon" src="__PUBLIC__/img/logo.png">-->社区网
+        </a>
+        <ul class="nav navbar-nav">
+	             <li class="active"><a href="{:U('Index/index')}">首页</a></li>
+               <li><a href="{:U('Topic/addtopic')}">发表</a></li>
+               <li><a href="{:U('Special/index')}">专题</a></li>
+        </ul>     
+            <!--<a href="{:U('Index/addtopic')}" class="btn btn-primary pull-left">创建新百科</a>-->
+             <!--判断是否登录-->  
+        <ul class="nav navbar-nav navbar-right"> 
+        <php>if($_SESSION['isLogin']!=1){</php>       
+            <li><a href='{:U("User/login")}'>登录</a></li>
+            <li><a href='{:U("User/register")}'>注册</a></li>
+        </ul>
+        <php>}else { </php>          
+            <li><a href="{:U('User/message')}">消息</a></li>
+	        <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="mydrop">{$_SESSION['userinfo']}
+                    <span class="caret"></span>
+                </a>
+	            <ul class="dropdown-menu">
+                        <li><a href='{:U("User/setinfo")}'>设置</a></li>
+                        <li><a href='{:U("User/issue")}'>我的发布</a></li>
+                        <li><a href='{:U("User/issue")}'>我的参与</a></li>
+                        <li class="divider"></li>
+                        <li><a href="{:U('User/layout')}">退出</a></li>
+	            </ul>
+            </li>
+        </ul>
+        <php>}</php>
+        <form class="navbar-form navbar-right" role="search" style="margin-right:50px;">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="话题">
+          </div>
+          <button type="submit" class="btn btn-default">搜索</button>
+        </form>  
+    </div><!--navbar-->
+</div>

@@ -1,0 +1,103 @@
+<include file="Public:public_header" />
+<div id="wrap">
+  <div class="container main">
+    <div class="row">
+      <div class="col-md-8">
+         <div class="panel panel-default index-topic-list">
+            <div class="panel-heading">
+               <ul class="breadcrumb" >
+                  <li><a href="{:U('Index/index')}">首页</a><span class="divider">&nbsp;&nbsp;</span></li>
+                  <li><a href="#">&nbsp;&nbsp;设置</a></li>
+               </ul>
+            </div>
+            <div class="panel-body">
+               <ul class="nav nav-tabs">
+                  <li class="active"><a href='{:U("User/setinfo")}'>个人资料</a></li>
+                  <li><a href="{:U('User/setavatar')}">设置头像</a></li>
+                  <li><a href="{:U('User/setpwd')}">修改密码</a></li>
+                  <li><a href="{:U('User/setbind')}">绑定账号</a></li>
+               </ul>
+               <div class="inner">
+                  <form class="form-horizontal setinfo" action="" method="POST">
+                    <fieldset>
+                      <div id="legend">用户信息设置</div>
+                      <!--用户名-->
+                      <div class="control-group">
+                        <label class="control-label" for="username">用户名</label>
+                        <div class="controls">
+                          <input type="text" id="username" name="username" placeholder="" class="input-xlarge" value="{$_SESSION['userinfo']}">
+                          <p class="help-block">用户名只能由字母开头,只能含有字母、数字或者下划线
+                          </p>
+                        </div>
+                      </div>
+                      <!--邮箱-->
+                      <div class="control-group">
+                        <label class="control-label" for="email">邮箱</label>
+                        <div class="controls">
+                          <input type="text" id="email" name="email" placeholder="" class="input-xlarge" value="{$_SESSION['email']}">
+                          <p class="help-block">邮箱名不能为空
+                          </p>
+                        </div>
+                      </div>
+                      <!--昵称nickname-->
+                      <div class="control-group">
+                         <label class="control-label" for="nickname">昵称</label>
+                         <div class="controls">
+                            <input type="text" id="nickname" name="nickname" placeholder="" class="input-xlarge" value="{$_SESSION['userinfo']}">
+                            <p class="help-block">你的昵称，便于其他人更好的认识你</p>
+                         </div>
+                      </div>
+                      <!--签名-->
+                      <div class="control-group">
+                        <label class="control-label" for="signature">个性签名</label>
+                        <div class="controls">
+                           <input type="text" id="signature" name="signature" placeholder="" class="input-xlarge" value="Just do a Full Stack Engineer">
+                           <p class="help-block">你的签名，将展示在你的个人资料页面</p>
+                        </div>
+                      </div>
+                      <!--website-->
+                      <div class="control-group">
+                    <label class="control-label" for="website">个人网站</label>
+                    <div class="controls">
+                        <input type="text" id="website" name="website" placeholder="" class="input-xlarge" value="http://www.liuyidi.com">
+                        <p class="help-block">你的个人网站，让你的朋友了解你更多一点</p>
+                    </div>
+                </div>
+                      <!--微博-->
+                      <div class="control-group">
+                    <!-- E-mail -->
+                    <label class="control-label" for="douban">微博：</label>
+                    <div class="controls">
+                        <input type="text" id="weibo" name="weibo" placeholder="" class="input-xlarge" value="geek111">
+                        <p class="help-block">你的微博个性域名，用以在你的个人页面展示你的微博地址。</p>
+                    </div>
+                </div>
+                      <!--个人简介-->
+                      <div class="control-group">
+                    <!-- E-mail -->
+                    <label class="control-label" for="self_intro">个人简介：</label>
+                    <div class="controls">
+                        <textarea type="text" id="self_intro" name="self_intro" placeholder="" class="input-xlarge" style="height:120px;">热爱互联网，热爱电子商务，喜欢新东西，对IT技术痴迷。</textarea>
+                        <p class="help-block">可以稍微详细的介绍自己。</p>
+                    </div>
+                </div>
+                      <!--保存-->
+                      <div class="controls">
+                        <button class="btn btn-success">保存改动</button>
+                      </div>
+                    </fieldset>
+                    <input type="hidden" name="_xsrf" value="">
+                  </form>
+
+               </div><!--inner-->
+            </div>
+         </div>   
+      </div>
+      <!--col-md-8-->
+      <div class="col-md-4">
+            {:W('UserInfo')} {:W('Ad')}
+      </div>
+     </div><!--row-->
+  </div><!--container-->
+</div><!--wrap-->
+<include file="Public:public_footer"/>

@@ -1,0 +1,212 @@
+[ 2014-10-22T18:25:37+08:00 ] 127.0.0.1 /shequ/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.064004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.075005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\shequ\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 33 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\shequ\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.644036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.645037s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.035002s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.038002s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.035002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.044002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.154008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.022002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.023002s ]
+
+[ 2014-10-22T18:25:48+08:00 ] 127.0.0.1 /shequ/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.024002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.025002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.053003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\shequ\App\Runtime\Cache\f0b6776c2e2528b7b581d55514547e92.php 第 33 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\shequ\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.114007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-10-22T18:26:22+08:00 ] 127.0.0.1 /shequ/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: isLogin C:\wamp\www\shequ\App\Runtime\Cache\f0b6776c2e2528b7b581d55514547e92.php 第 33 行.
+NOTIC: [8] Undefined index: mid C:\wamp\www\shequ\App\Lib\Widget\UserInfoWidget.class.php 第 8 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-10-22T18:26:27+08:00 ] 127.0.0.1 /shequ/index.php/User/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.314018s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '928171466@qq.com' ) AND ( `password` = '4c47957804440bc6d66c6534568df676' ) LIMIT 1   [ RunTime:0.092005s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-10-22T18:26:28+08:00 ] 127.0.0.1 /shequ/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined index: $description C:\wamp\www\shequ\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 11 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.123007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-10-22T18:26:32+08:00 ] 127.0.0.1 /shequ/index.php/Special/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.030002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.127008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128008s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-10-22T18:26:37+08:00 ] 127.0.0.1 /shequ/index.php/Topic/addtopic
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.064003s ]
+SQL: SELECT `name` FROM `think_category`  [ RunTime:0.003001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.042002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id C:\wamp\www\shequ\App\Runtime\Cache\201f30b9ede6c9e6a3430e4ff086e925.php 第 86 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\shequ\App\Runtime\Cache\201f30b9ede6c9e6a3430e4ff086e925.php 第 86 行.
+NOTIC: [8] Undefined index: id C:\wamp\www\shequ\App\Runtime\Cache\201f30b9ede6c9e6a3430e4ff086e925.php 第 86 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined index: $description C:\wamp\www\shequ\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 11 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-10-22T18:26:50+08:00 ] 127.0.0.1 /shequ/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.077005s ]
+SQL: SELECT * FROM `think_user` LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+NOTIC: [8] Undefined index: $description C:\wamp\www\shequ\App\Runtime\Cache\0607fb074d34dbebb41ad2c1e7ab7c0d.php 第 11 行.
+NOTIC: [2] extract() expects parameter 1 to be array, string given C:\wamp\www\shequ\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.169010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+

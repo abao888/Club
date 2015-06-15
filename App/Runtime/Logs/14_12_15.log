@@ -1,0 +1,32 @@
+[ 2014-12-15T13:09:52+08:00 ] 127.0.0.1 /shequ/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.038002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.187011s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.157009s ]
+SQL: SHOW COLUMNS FROM `think_comment` [ RunTime:0.015001s ]
+ERR: Table 'thinkphpbbs.think_comment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_comment`
+SQL: SHOW COLUMNS FROM `think_categroy` [ RunTime:0.012001s ]
+ERR: Table 'thinkphpbbs.think_categroy' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_categroy`
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.023002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: topiclist C:\wamp\www\shequ\App\Runtime\Cache\6f5f025117d273394ea59517d1f08780.php 第 18 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.255014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.255014s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.032002s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.014001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.047003s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.044002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.079005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.079005s ]
+

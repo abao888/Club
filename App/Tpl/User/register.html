@@ -1,0 +1,72 @@
+﻿<include file="Public:public_header" />
+
+<div id="wrap">
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-8">
+            	<div class="panel panel-default index-topic-list">
+                    <div class="panel-heading">
+				       <h3>用户注册</h3>
+				    </div>
+				    <div class="panel-body">
+				        <form class="form-horizontal" id="register_form" method="post" action="{:U('User/doRegister')}">
+	                        <fieldset>
+	  <div class="control-group">
+	    <label class="control-label"  for="username">用户名</label>
+		<div class="controls">
+		    <input type="text" id="username" name="username" placeholder="请输入您的用户名" class="input-xlarge"/>
+			<span><b>&nbsp;OK!</b></span>
+		    <p class="help-block">请输入您的用户名</p>
+		</div>
+	  </div>
+	  <div class="control-group">
+	    <label class="control-label" for="email">邮箱</label>
+		<div class="controls">
+		    <input type="text" id="email" name="email" placeholder="请输入您的邮箱" class="input-xlarge"/>
+			<span><b>&nbsp;OK!</b></span>
+		    <p class="help-block">请输入您的邮箱</p>
+		</div>
+	  </div>
+	  <div class="control-group">
+	    <label class="control-label" for="input01">密码</label>
+		<div class="controls">
+		    <input type="password" name="password" placeholder="请输入您的密码" class="input-xlarge"/>
+			<span><b>&nbsp;OK!</b></span>
+		    <p class="help-block">请输入您的密码</p>
+		</div>
+	  </div>
+	  <div class="control-group">
+	    <label class="control-label" for="input01">确认密码</label>
+		<div class="controls">
+		    <input type="password" name="repassword" placeholder="请再次输入您的密码" class="input-xlarge"/>
+			<span><b>&nbsp;OK!</b></span>
+		    <p class="help-block">请再次输入您的密码</p>
+		</div>
+	  </div>
+	  <div class="control-group">
+	    <label class="control-label" for="input01">验证码</label>
+		<div class="controls">
+            <img src="{:U('User/verify')}"/>
+		    <input type="text" name="verify" class="input-xlarge"/>
+		    <p class="help-block">OK!</p>
+		</div>
+	  </div>
+	  <div class="control-group">
+		<div class="controls">
+		    <input type="submit"  value="注册" class="btn btn-success input-xlarge"/>
+		</div>
+	  </div>
+	  
+	                        </fieldset>	  
+				        </form>
+				    </div>
+			    </div>
+			</div><!--col-md-8-->
+		    
+            <div class="col-md-4">
+                {:W('UserInfo')} {:W('Ad')}
+            </div>
+        </div><!--row-->
+    </div><!--container-->
+</div><!--wrap-->
+<include file="Public:public_footer" />
